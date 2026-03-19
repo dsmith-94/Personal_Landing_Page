@@ -1,0 +1,112 @@
+# Product Requirement Document
+
+## 01 — Problem Statement
+
+Dawson Smith, a Business Analytics & Information Systems student at the University of Iowa (graduating May 2026), wants a personal landing page to **differentiate himself from other candidates** and provide a **clean, accessible way for recruiters and peers to evaluate his work and technical ability**. The page will give a **high-level view of experience with the option to explore projects in depth**, going beyond what a resume or LinkedIn profile can convey. This curated professional presence emphasizes both business and technical skills, highlighting real-world projects, internship experience, and analytical capabilities.
+
+## 02 — Target Audience
+
+**Primary audience:**
+
+* HR representatives and hiring managers recruiting for data analyst / data-focused roles at medium to large corporate or consulting firms in the Midwest.
+
+**Secondary audience:**
+
+* Data analysts and technical team members evaluating technical skills.
+* Broader U.S.-based opportunities beyond the Midwest.
+
+**Visitor goals:**
+
+* Quickly understand **who Dawson is**, his professional background, and relevant work experience.
+* Gain confidence in his ability to **apply technical skills to real business problems**.
+* Access **detailed project examples** to explore deeper if interested.
+
+## 03 — Goals & Success Metrics
+
+| Goal                                          | How We Measure It                             |
+| --------------------------------------------- | --------------------------------------------- |
+| Generate recruiter or hiring manager contacts | 5–10 contacts within 30–60 days               |
+| Secure interviews                             | 2–3 interview opportunities within 30–60 days |
+| Understand site visibility                    | Track number of site visits                   |
+
+## 04 — Required Content
+
+### Hero Section
+
+**Must:**
+
+* Name: Dawson Smith
+* Tagline: *“Business Analytics Student | Data-Driven Problem Solver | Aspiring Data Analyst”* (mix of technical & business focus)
+
+### Bio Section
+
+**Must:**
+
+* University of Iowa, Tippie College of Business, Business Analytics & Information Systems
+* Graduation: May 2026
+* Professional focus on data analysis and data-driven business solutions
+* Internship experience at MidAmerican Energy
+* Professional tone; optional mention of leadership/volunteer work (Camp Kesem) in extra section
+
+### Profile Photo
+
+**Must:**
+
+* Professional headshot (stored in `/images` folder)
+
+### Skills
+
+**Must (grouped):**
+
+* **Tools:** Python, SQL, Excel, Azure, Power BI, Databricks
+* **Techniques:** Regression, Forecasting, Machine Learning, Data Wrangling, Visualization
+
+### Projects
+
+**Must feature (priority order):**
+
+1. **Casey’s Promotion Effectiveness Analysis** — Databricks SQL + Power BI; analyzed campaign impact on sales, customer engagement, and retention
+2. **College Tuition Machine Learning Project** — Python; linear regression & decision trees, data wrangling and analysis
+3. **Flight Optimization & Simulation** — Python; flight cost & timing optimization with multiple constraints
+4. **NFL Combine SQL Project** — SQL (3NF), Oracle Web Application; analytical queries, subqueries, CASE statements
+
+**Optional / future projects:** Infectious Disease Simulation
+
+### Contact
+
+**Must:**
+
+* LinkedIn: [https://www.linkedin.com/in/dawson-smith24/](https://www.linkedin.com/in/dawson-smith24/)
+* Email: [Your email]
+
+**Should:**
+
+* GitHub (once repository is ready)
+
+## 05 — Scope
+
+| In Scope This Week                                                                                      | Out of Scope                                            |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Build landing page structure (HTML/CSS)                                                                 | Animations or advanced interactivity                    |
+| Hero section (name + tagline)                                                                           | Optional projects or secondary content                  |
+| Bio section (professional, with degree & internship)                                                    | Multi-language support or accessibility fine-tuning     |
+| Skills section (grouped: Tools vs Techniques)                                                           | Performance optimizations / tracking scripts            |
+| Projects section (priority projects: Casey’s, College Tuition ML, Flight Optimization, NFL Combine SQL) | Optional extra projects (Infectious Disease Simulation) |
+| Contact section (LinkedIn, email; GitHub ready later)                                                   | Integrations with external apps or live dashboards      |
+
+## 06 — Assumptions & Constraints
+
+**Assumptions (ready):**
+
+* Professional headshot planned and available
+* GitHub repository will be created for the project
+* Replit is connected and ready for development
+
+**Constraints:**
+
+* Time: limited to this week for first iteration
+* Tools: HTML/CSS, images stored locally, no external frameworks yet
+* Skill level: beginner/intermediate front-end skills
+* Budget: none (personal project)
+
+> **Next step:** Save this file as `PRD.md` in your GitHub repo root. Then open your `STANDARDS.md` template and use your PRD to fill in Section 1 (Project Overview) and Section 3 (Design Standards). Both files must be in your repository root before your first coding session.
